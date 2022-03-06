@@ -57,7 +57,7 @@ body {
   border-radius: 1rem;
 }
 
-p {
+.advice-tag {
   color: var(--primary-color);
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -65,14 +65,14 @@ p {
   font-size: 0.75rem;
 }
 
-h1 {
+.advice-quote {
   font-weight: var(--weight-primary);
   margin: 1.5rem 0 2.1rem;
   font-size: var(--font-quote);
   font-weight: var(--weight-primary);
 }
 
-.dice-container {
+.btn {
   background: var(--primary-color);
   padding: 1.3rem;
   border-radius: 50%;
@@ -82,13 +82,22 @@ h1 {
   transition: 0.3s ease-in-out;
 }
 
-.dice-container:hover {
+.btn:hover,
+.btn:focus {
   box-shadow: 0 0 20px 1px hsl(150, 100%, 66%);
+}
+
+.line {
+  width: 100%;
 }
 
 /* Media queries */
 @media (max-width: 600px) {
   .card {
     padding: 2.7rem 2.4rem 0;
+  }
+
+  .card {
+    width: 100%;
   }
 }
