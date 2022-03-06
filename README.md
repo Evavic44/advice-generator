@@ -1,5 +1,7 @@
 <h1 align="center">Advice generator App</h1>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9369ff42-c13e-44d0-95b2-784ceb255214/deploy-status)](https://app.netlify.com/sites/advice-generator-challenge/deploys)
+
 ![Advice-generator-banner](https://user-images.githubusercontent.com/62628408/156934417-62060d7a-360a-4e69-a167-f2412197428c.png)
 
 ## Welcome! 👋
