@@ -38,9 +38,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
+  max-width: var(--width-desktop);
   margin: 0 auto;
-  height: 90vh;
+  height: 100vh;
   padding: 1rem;
 }
 
@@ -53,8 +53,8 @@ body {
   background: var(--bg-secondary);
   padding: 2.5rem 2rem 0;
   max-width: 540px;
-  min-height: 250px;
   border-radius: 1rem;
+  box-shadow: 30px 60px 30px 0 rgb(29, 35, 48);
 }
 
 .advice-tag {
@@ -84,20 +84,5 @@ body {
 
 .btn:hover,
 .btn:focus {
-  box-shadow: 0 0 20px 1px hsl(150, 100%, 66%);
-}
-
-.line {
-  width: 100%;
-}
-
-/* Media queries */
-@media (max-width: 600px) {
-  .card {
-    padding: 2.7rem 2.4rem 0;
-  }
-
-  .card {
-    width: 100%;
-  }
+  box-shadow: 0px 0px 30px 0 rgb(82, 255, 168);
 }
