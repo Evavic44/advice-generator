@@ -1,11 +1,12 @@
 :root {
   --primary-color: hsl(150, 100%, 66%);
-  --text-light: hsl(193, 38%, 86%);
-  --secondary-color: hsl(217, 19%, 24%);
+  --text-color: hsl(193, 38%, 86%);
   --bg-primary: hsl(218, 23%, 16%);
   --bg-secondary: hsl(217, 19%, 24%);
+  --shadow: 0px 0px 30px 0 rgb(82, 255, 168);
 
   /* Font */
+  --font-family: "Manrope", sans-serif;
   --font-quote: 1.75rem;
   --font-normal: 1rem;
 
@@ -29,7 +30,7 @@ img {
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-family);
   background: var(--bg-primary);
   color: hsl(193, 38%, 86%);
 }
@@ -54,7 +55,6 @@ body {
   padding: 2.5rem 2rem 0;
   max-width: 540px;
   border-radius: 1rem;
-  box-shadow: 30px 60px 30px 0 rgb(29, 35, 48);
 }
 
 .advice-tag {
@@ -84,5 +84,5 @@ body {
 
 .btn:hover,
 .btn:focus {
-  box-shadow: 0px 0px 30px 0 rgb(82, 255, 168);
+  box-shadow: var(--shadow);
 }
